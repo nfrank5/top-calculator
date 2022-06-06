@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 100px;
+}
+.line {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    border: 6px;
+    border-style: solid;
+    border-color: #28231D;
+    padding: 5%;
+    color:#28231D
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+}
+
+.touch {
+    transform: scale(1.01);
+    box-shadow: 0 0 0.3rem black;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #28231D;
+    margin: 5px;
+    min-height: 70px;
+    justify-content:space-evenly;
+}
+
+
+
+
+.numbers>div>div, .operators>div, .zero, .display {
+    display: flex;
+    justify-content: center;
+    border: 4 px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #28231D;
+    margin: 9px;
+    padding: 9px;
+    background-color: #d8d9de;
+    min-width: 50px;
+    transition: all .1s ease;
+}
+
+.calculator {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 6px;
+    border-style: solid;
+    border-color: #28231D;
+    border-radius: 5px;
+    background-color: #6e7889;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.display {
+ background-color: #d8d9de;
+ color:#393b45;
+ text-align: right;
+ height: 30px;
+ width: auto;
+ justify-content: right;
+ align-items: center;
+}
+
+.operators>div {
+    background-color: rgb(213, 111, 22);
+    color: white;
+}
