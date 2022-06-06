@@ -99,7 +99,6 @@ function getOperator(e){
 }
 
 function keyboardInput(e){
-    console.log(e.key)
     if(KEYBOARD_OPERATORS.includes(e.key)){
         if(e.key==="Backspace"){
             display.textContent = display.textContent.slice(0, -1);
